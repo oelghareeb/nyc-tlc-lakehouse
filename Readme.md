@@ -204,13 +204,13 @@ cd nyc-tlc-lakehouse
 | --------- | ------------------------------------------------ |
 | Superset  | [http://localhost:8088](http://localhost:8088)   |
 | Nessie UI | [http://localhost:19120](http://localhost:19120) |
-| Airflow UI| [http://localhost:8080]((http://localhost:8080)) |
-| MinIO UI  | [http://localhost:9000]((http://localhost:9000)) |
-| Trino UI  | [http://localhost:9080]((http://localhost:9080)) |
-| Spark UI  | [http://localhost:8181]((http://localhost:8181)) |
-| Jupyter   | [http://localhost:8889]((http://localhost:8889)) |
+| Airflow UI| [http://localhost:8080](http://localhost:8080) |
+| MinIO UI  | [http://localhost:9000](http://localhost:9000) |
+| Trino UI  | [http://localhost:9080](http://localhost:9080) |
+| Spark UI  | [http://localhost:8181](http://localhost:8181) |
+| Jupyter   | [http://localhost:8889](http://localhost:8889) |
 
-the token for jupyter will be in the container logs
+The token for Jupyter will be in the container logs
 
 
 ## Data Sources
