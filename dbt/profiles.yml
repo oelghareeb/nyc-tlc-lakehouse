@@ -1,0 +1,13 @@
+nyc_dbt:
+  target: trino
+  outputs:
+    trino:
+      type: trino
+      method: none
+      user: trino
+      password: ""
+      host: trino           # Name of the service inside the docker-compose file (you can also replace this with container ip with docker inspect)
+      port: 8080            # Port in the docker 
+      catalog: iceberg      # Catalog name
+      schema: "nyc"         # The name before the schema in the dbt_project.yml file
+      threads: 4

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw            # This is the "source name" used in {{ source() }}
+    database: iceberg     # Optional: your catalog/database in Trino/Iceberg
+    schema: nyc_bronze       # Optional: the schema where the table lives
+    tables:
+      - name: yellow_tripdata_raw  # This matches your table name in Iceberg
