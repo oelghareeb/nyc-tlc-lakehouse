@@ -16,7 +16,7 @@ This project demonstrates an **end-to-end data engineering pipeline** built usin
 
 ---
 
-![Architecture](Images/Architecture.png)
+![Architecture](images/Architecture.png)
 
 * **Raw Layer:** Raw data stored in MinIO as Parquet.
 * **Bronze Layer:** Raw data registered as Iceberg tables using Spark.
